@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="<%= static_path(@conn, "/static/favicon.ico") %>">
+    <link rel="icon" href="<%= static_path(@conn, "/static/favicon.ico") %>" type="image/x-icon">
+    <link rel="shortcut icon" href="<%= static_path(@conn, "/static/favicon.ico") %>" type="image/x-icon">
 
     <title> Bianca & Robbie Wedding 2019 </title>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
