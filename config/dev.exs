@@ -37,7 +37,7 @@ config :wedding, WeddingWeb.Endpoint,
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
       ~r{lib/wedding_web/views/.*(ex)$},
-      ~r{lib/wedding_web/templates/.*(eex)$}
+      ~r{lib/wedding_web/templates/.*(eex|pug)$}
     ]
   ]
 
