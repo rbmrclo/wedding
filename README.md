@@ -1,4 +1,4 @@
-# Wedding Landing Page
+# Wedding
 
 To start your Phoenix server:
 
@@ -8,3 +8,13 @@ To start your Phoenix server:
   * Start Phoenix endpoint with `mix phx.server`
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+## TODO
+
+- [x] Save the Date
+- [ ] RSVP
+- [ ] Suppliers list
+- [ ] Gallery page
+- [ ] Backoffice to manage guest list
+- [ ] Maps page (direction going to the venue)
+- [ ] Contact page (just email)
