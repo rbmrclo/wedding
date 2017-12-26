@@ -12,8 +12,6 @@ config :logger, level: :warn
 # Configure your database
 config :wedding, Wedding.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
   database: "wedding_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
