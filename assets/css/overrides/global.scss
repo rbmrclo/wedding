@@ -1,0 +1,21 @@
+@import "../variables";
+
+body {
+  background: url('/images/xv.png') !important;
+  background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  color: $font-color-primary !important;
+  font-family: $font-family-primary !important;
+}
+
+p, ul, ol, small {
+  color: $font-color-primary !important;
+  font-family: $font-family-secondary !important;
+}
+
+.button.primary {
+  font-family: $font-family-secondary !important;
+  background: $font-color-primary !important;
+}
