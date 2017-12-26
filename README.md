@@ -1,5 +1,8 @@
 # Wedding
 
+<img width="921" alt="screen shot 2017-12-27 at 4 07 20 am" src="https://user-images.githubusercontent.com/2811885/34363921-7a8d4f96-eabb-11e7-89da-7dcdf08f7bfc.png">
+
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
