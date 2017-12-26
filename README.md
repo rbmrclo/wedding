@@ -21,3 +21,5 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 - [ ] Backoffice to manage guest list
 - [ ] Maps page (direction going to the venue)
 - [ ] Contact page (just email)
+- [ ] Refactor
+- [ ] Automate deployment
