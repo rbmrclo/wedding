@@ -1,3 +1,5 @@
+@import "../variables";
+
 #page {
   padding-top: 50px;
 
@@ -9,9 +11,14 @@
   .subtitle {
     font-weight: 400;
     font-size: .8em;
+    color: $palette-sage !important;
   }
 
   .cta {
     font-weight: 500;
+
+    &:hover {
+      background: $palette-blush !important;
+    }
   }
 }

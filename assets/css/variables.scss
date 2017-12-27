@@ -1,5 +1,14 @@
+// Wedding color palette (rustic)
+$palette-gold: #E3C550;     // 196, 162, 51
+$palette-blush: #E0A8A9;    // 224, 168, 169
+$palette-ivory: #FFFFF0;    // 255, 255, 240
+$palette-sage: #AECBB6;     // 200, 203, 182
+$palette-midnight: #1A1A73; // 26, 26, 115
+
+// Website colors
 $bg-color: #b6e8e3;
-$font-color-primary: #386393;
+$font-color-primary: $palette-gold;
 $font-color-secondary: #ffffff;
 $font-family-primary: 'Josefin Sans', sans-serif;
 $font-family-secondary: 'Merriweather', serif;
+

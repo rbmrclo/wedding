@@ -1,7 +1,10 @@
 @import "../variables";
 
 body {
-  background: url('/images/xv.png') !important;
+  background: linear-gradient(
+    rgba(255, 255, 240, 0.3),
+    rgba(255, 255, 240, 0.3)
+  ), url('/images/xv.png') !important;
   background-repeat: repeat;
 }
 
