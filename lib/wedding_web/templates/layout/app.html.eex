@@ -4,14 +4,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Robbie & Bianca Wedding 2019">
+    <meta name="author" content="Robbie Marcelo, Bianca Esmero">
+    <meta property="og:url"  content="http://www.robbieandbia.com" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Robbie and Bianca Wedding 2019 - Save the Date" />
+    <meta property="og:description" content="Robbie and Bianca Wedding 2019 - Save the Date" />
+    <meta property="og:image" content="<%= static_path(@conn, "/images/bg.JPG") %>" />
     <link rel="icon" href="<%= static_path(@conn, "/images/favicon.ico") %>" type="image/x-icon">
     <link rel="shortcut icon" href="<%= static_path(@conn, "/images/favicon.ico") %>" type="image/x-icon">
 
     <title> Bianca & Robbie Wedding 2019 </title>
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Merriweather:400" rel="stylesheet">
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
   </head>
 
