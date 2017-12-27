@@ -15,9 +15,7 @@ use Mix.Config
 # which you typically run after static files are built.
 config :wedding, WeddingWeb.Endpoint,
   load_from_system_env: true,
-  url: [scheme: "https", host: System.get_env("HOST_NAME"), port: 443],
-
-force_ssl: [rewrite_on: [:x_forwarded_proto]],
+  url: [scheme: "http", host: System.get_env("HOST_NAME"), port: 443],
   cache_static_manifest: "priv/static/cache_manifest.json",
   secret_key_base: Map.fetch!(System.get_env(), "SECRET_KEY_BASE")
 
